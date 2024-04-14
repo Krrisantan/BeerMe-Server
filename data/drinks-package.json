@@ -1,0 +1,126 @@
+[
+        
+    {
+        "id": 50,
+        "category": "Drinks",
+        "name": "Craft Beer",
+        "price": "6.99",
+        "in_stock": true,
+        "quantity": 150,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 51,
+        "category": "Beers",
+        "name": "IPA (India Pale Ale)",
+        "price": "6.99",
+        "in_stock": true,
+        "quantity": 30,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 52,
+        "category": "Beers",
+        "name": "Stout",
+        "price": "7.49",
+        "in_stock": true,
+        "quantity": 25,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 53,
+        "category": "Beers",
+        "name": "Wheat Beer",
+        "price": "6.49",
+        "in_stock": true,
+        "quantity": 35,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 54,
+        "category": "Beers",
+        "name": "Pilsner",
+        "price": "5.99",
+        "in_stock": true,
+        "quantity": 40,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 55,
+        "category": "Beers",
+        "name": "Amber Ale",
+        "price": "6.79",
+        "in_stock": true,
+        "quantity": 30,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 56,
+        "category": "Beers",
+        "name": "Pale Ale",
+        "price": "6.59",
+        "in_stock": true,
+        "quantity": 35,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 57,
+        "category": "Drinks",
+        "name": "Mojito",
+        "price": "7.99",
+        "in_stock": true,
+        "quantity": 120,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 58,
+        "category": "Mixed Drinks",
+        "name": "Margarita",
+        "price": "8.99",
+        "in_stock": true,
+        "quantity": 40,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 59,
+        "category": "Non-Alcoholic Drinks",
+        "name": "Iced Tea",
+        "price": "3.99",
+        "in_stock": true,
+        "quantity": 60,
+        "table": 5,
+        "image": "http://localhost:8080/images/beer.jpg",
+        "ordered": false
+    },
+
+        {
+            "id": 60,
+            "category": "Non-Alcoholic Drinks",
+            "name": "Virgin Mojito",
+            "price": "4.49",
+            "in_stock": true,
+            "quantity": 50,
+            "table": 5,
+            "image": "http://localhost:8080/images/beer.jpg",
+            "ordered": false
+        }
+    
+]
