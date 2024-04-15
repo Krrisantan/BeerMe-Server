@@ -43,7 +43,7 @@ router.post("/orders", (_req, res) => {
 
 // NEEDED????
 router.use((_req, res, next) => {
-    console.log("Middleware from the ordersRoutes router");
+    // console.log("Middleware from the ordersRoutes router");
     next();
 })
 
