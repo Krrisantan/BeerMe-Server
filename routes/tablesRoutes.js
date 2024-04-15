@@ -5,7 +5,6 @@ const uniqid = require("uniqid");
 
 function tableNumber() {
     const tableData = fs.readFileSync("./data/tables.json");
-    // console.log(foodData)
     const parsedData = JSON.parse(tableData);
     return parsedData;
 }
@@ -17,7 +16,6 @@ router.use((_req, res, next) => {
 
 router.get("/", (_req, res) => {
     const tableData = fs.readFileSync("./data/tables.json");
-    // console.log(drinksData)
     const parsedData = JSON.parse(tableData);
     res.json(parsedData);
 });

@@ -11,13 +11,11 @@ function orderDrinks() {
 }
 
 router.use((_req, res, next) => {
-    // console.log("Middleware from the drinks router");
     next();
 });
 
 router.get("/", (_req, res) => {
     const drinksData = fs.readFileSync("./data/drinks-package.json");
-    // console.log(drinksData)
     const parsedData = JSON.parse(drinksData);
     res.json(parsedData);
 });

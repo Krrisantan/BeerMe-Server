@@ -15,13 +15,9 @@ app.use(cors());
 
 app.use(express.json());
 
-// Do I need this? I'm not sure TODO
-// app.use(express.static('build'));
-
 app.use( express.static("public"));
 
 app.use((_req, res, next) => {
-    // console.log("Middleware running");
     next();
 });
 
@@ -36,19 +32,6 @@ app.get('/', (_req, res) => {
     return res.send("I am working");
 })
 
-// app.get("/routes/drinksRoutes", (_req, res) => {
-//     const drinksData = fs.readFileSync("./data/drinks-package.json");
-//     console.log(drinksData)
-//     const parsedData = JSON.parse(drinksData);
-//     res.json(parsedData);
-// });
-
-// app.route("/ordersRoutes")
-// //OR
-// app.use("/routes", ordersRoutes);
-
-// app.route("/drinksRoutes")
-//OR
 app.use("/drinksRoutes", drinksRoutes);
 app.use("/foodRoutes", foodRoutes);
 app.use("/tablesRoutes", tablesRoutes);

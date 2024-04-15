@@ -10,11 +10,10 @@ function readOrdersData() {
     return parsedData;
 }
 
-// added Apr 11 at 13:00
 router.get("/orders", (_req, res) => {
     res.json(readOrdersData());
 })
-// added Apr 11 at 13:00
+
 router.get("/orders/:id", (_req, res) => {
     const ordersData = fs.readFileSync("./data/orders.json");
     const parsedData = JSON.parse(ordersData);
@@ -41,13 +40,9 @@ router.post("/orders", (_req, res) => {
     res.json(readOrdersData())
 })
 
-// NEEDED????
 router.use((_req, res, next) => {
-    // console.log("Middleware from the ordersRoutes router");
     next();
 })
-
-// GET from orders.JSON and display on waitstaff side
 
 router.get("/", (_req, res) => {
     const newOrdersData = fs.readFileSync("./data/orders.json");
