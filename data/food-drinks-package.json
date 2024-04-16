@@ -1,0 +1,139 @@
+[
+    {
+        "id": 1,
+        "category": "Burgers",
+        "name": "Classic Cheeseburger",
+        "description": "A delicious beef patty topped with melted cheese, lettuce, tomato, onions, pickles, and special sauce, served on a sesame seed bun.",
+        "price": "10.99",
+        "in_stock": true,
+        "quantity": 100,
+        "table": 5,
+        "image": "http://localhost:8888/images/burger.jpg",
+        "ordered": false
+    },
+    {
+        "id": 2,
+        "category": "Burgers",
+        "name": "Bacon Avocado Burger",
+        "description": "Our signature burger featuring crispy bacon, creamy avocado, lettuce, tomato, red onion, and tangy BBQ sauce, served on a brioche bun.",
+        "price": "12.99",
+        "in_stock": true,
+        "quantity": 80,
+        "table": 5,
+        "image": "http://localhost:8888/images/AvoBurger.jpg",
+        "ordered": false
+    },
+    {
+        "id": 3,
+        "category": "Appetizers",
+        "name": "Loaded Nachos",
+        "description": "A generous portion of crispy tortilla chips smothered in melted cheese, topped with seasoned ground beef, jalapenos, sour cream, guacamole, and salsa.",
+        "price": "8.99",
+        "in_stock": true,
+        "quantity": 120,
+        "table": 5,
+        "image": "http://localhost:8888/images/Nachos.jpg",
+        "ordered": false
+    },
+    {
+        "id": 4,
+        "category": "Appetizers",
+        "name": "Buffalo Wings",
+        "description": "Tender chicken wings tossed in spicy buffalo sauce, served with celery sticks and blue cheese dressing.",
+        "price": "9.99",
+        "in_stock": true,
+        "quantity": 90,
+        "table": 5,
+        "image": "http://localhost:8888/images/Wings.jpg",
+        "ordered": false
+    },
+    {
+        "id": 5,
+        "category": "Pizza",
+        "name": "Margherita Pizza",
+        "description": "A classic pizza topped with tomato sauce, fresh mozzarella cheese, tomatoes, and fresh basil leaves.",
+        "price": "12.99",
+        "in_stock": true,
+        "quantity": 40,
+        "table": 5,
+        "image": "http://localhost:8888/images/Pizza.jpg",
+        "ordered": false
+    },
+    {
+        "id": 100,
+        "category": "Drinks",
+        "name": "Lions Gate Lager",
+        "price": "6.99",
+        "in_stock": true,
+        "quantity": 150,
+        "table": 5,
+        "image": "http://localhost:8888/images/beer.jpg",
+        "ordered": false
+    },
+    {
+        "id": 101,
+        "category": "Beers",
+        "name": "IPA (India Pale Ale)",
+        "price": "6.99",
+        "in_stock": true,
+        "quantity": 30,
+        "table": 5,
+        "image": "http://localhost:8888/images/IPA.jpg",
+        "ordered": false
+    },
+    {
+        "id": 102,
+        "category": "Beers",
+        "name": "Stout",
+        "price": "7.49",
+        "in_stock": true,
+        "quantity": 25,
+        "table": 5,
+        "image": "http://localhost:8888/images/Stout.jpg",
+        "ordered": false
+    },
+    {
+        "id": 103,
+        "category": "Beers",
+        "name": "Wheat Beer",
+        "price": "6.49",
+        "in_stock": true,
+        "quantity": 35,
+        "table": 5,
+        "image": "http://localhost:8888/images/Wheat.jpg",
+        "ordered": false
+    },
+    {
+        "id": 104,
+        "category": "Drinks",
+        "name": "Mojito",
+        "price": "7.99",
+        "in_stock": true,
+        "quantity": 120,
+        "table": 5,
+        "image": "http://localhost:8888/images/Mojito.jpg",
+        "ordered": false
+    },
+    {
+        "id": 105,
+        "category": "Mixed Drinks",
+        "name": "Margarita",
+        "price": "8.99",
+        "in_stock": true,
+        "quantity": 40,
+        "table": 5,
+        "image": "http://localhost:8888/images/Margarita.jpg",
+        "ordered": false
+    },
+        {
+            "id": 106,
+            "category": "Non-Alcoholic Drinks",
+            "name": "Coca-Cola",
+            "price": "4.49",
+            "in_stock": true,
+            "quantity": 50,
+            "table": 5,
+            "image": "http://localhost:8888/images/Coke.jpg",
+            "ordered": false
+        }  
+]
