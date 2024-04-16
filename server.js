@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const PORT = 8080;
-const foodRoutes = require("./routes/foodRoutes");
-const drinksRoutes = require("./routes/drinksRoutes");
+const PORT = 8888;
+const foodDrinksRoutes = require("./routes/foodDrinksRoutes");
+// const drinksRoutes = require("./routes/drinksRoutes");
 const tablesRoutes = require("./routes/tablesRoutes");
 const ordersRoutes = require("./routes/ordersRoutes")
 const cors = require('cors');
@@ -32,8 +32,8 @@ app.get('/', (_req, res) => {
     return res.send("I am working");
 })
 
-app.use("/drinksRoutes", drinksRoutes);
-app.use("/foodRoutes", foodRoutes);
+// app.use("/drinksRoutes", drinksRoutes);
+app.use("/foodDrinksRoutes", foodDrinksRoutes);
 app.use("/tablesRoutes", tablesRoutes);
 app.use("/ordersRoutes", ordersRoutes)
 
