@@ -20,7 +20,7 @@
         "in_stock": true,
         "quantity": 80,
         "table": 5,
-        "image": "http://localhost:8888/images/AvoBurger.jpg",
+        "image": "http://localhost:8888/images/AvocadoBurger.jpg",
         "ordered": false
     },
     {
