@@ -9,12 +9,24 @@ const ordersRoutes = require("./routes/ordersRoutes")
 const cors = require('cors');
 const fs = require("fs");
 const uniqid = require("uniqid");
+const allowedOrigins = [
+  'https://beer-me.netlify.app', // Patron client side
+  'https://beer-me-waitstaff.netlify.app' // Server client side
+];
+
+const corsOptions = {
+  origin: allowedOrigins,
+};
+
+app.use(cors(corsOptions));
 
 require('dotenv').config();
 
-app.use(cors({
-    origin: 'https://beer-me.netlify.app'
-}));
+// app.use(cors({
+//     origin: 'https://beer-me.netlify.app'
+// }));
+
+// app.use(cors());
 
 app.use(express.json());
 
