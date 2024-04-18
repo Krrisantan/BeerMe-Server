@@ -12,7 +12,9 @@ const uniqid = require("uniqid");
 
 require('dotenv').config();
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://beer-me.netlify.app'
+}));
 
 app.use(express.json());
 
